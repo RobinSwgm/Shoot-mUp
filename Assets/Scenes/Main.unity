@@ -222,6 +222,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1526291043288829052, guid: 85afa73658513974e995aab2f25bcb42, type: 3}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_Name
+      value: Playershoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_ExpectedControlType
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_SingletonActionBindings.Array.data[0].m_Id
+      value: b2f1f6ba-2ab0-4fb0-9894-20c411ea7c11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Id
+      value: 95799190-b82f-4e4c-8b30-8abe53f798a3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playershoot.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Playershoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635951542793659974, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
     - target: {fileID: 5124487361751171078, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
       propertyPath: m_Name
       value: PlayerShip
@@ -232,7 +280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6360918617223747156, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.34
+      value: -3.44
       objectReference: {fileID: 0}
     - target: {fileID: 6360918617223747156, guid: 980bd9450e01721469eb10feb2dc64c9, type: 3}
       propertyPath: m_LocalPosition.z
