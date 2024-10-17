@@ -11,6 +11,9 @@ public class Player : MonoBehaviour
     public InputAction playershoot;
     [SerializeField] private GameObject bulletPrefab;
     private bool shot;
+    public float fireRate = 0.1f;
+
+    [SerializeField] private GameObject bulletParent;
 
     Vector2 moveDirection = Vector2.zero;
 
@@ -44,14 +47,14 @@ public class Player : MonoBehaviour
     IEnumerator ShootBullet()
     {
         shot = true;
-        Instantiate(bulletPrefab, transform.position, transform.rotation);
-        yield return new WaitForSeconds(0.1f);
+        Shoot();
+        yield return new WaitForSeconds(fireRate);
         shot = false;
     }
 
     void Shoot()
     {
-       
+        Instantiate(bulletPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation, bulletParent.transform);
     }
 
 }
